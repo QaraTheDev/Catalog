@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="1dp">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#dedede">
+                <ImageView
+                    android:id="@+id/itemImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    tools:layout_editor_absoluteX="-11dp"
+                    tools:layout_editor_absoluteY="-9dp"
+                    tools:srcCompat="@drawable/anime" />
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/itemCost"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Cost"
+                    android:textColor="@color/black"
+
+                    tools:layout_editor_absoluteX="189dp"
+                    tools:layout_editor_absoluteY="141dp" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/itemDescribe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Describe:"
+                    android:textSize="13sp"
+                    android:paddingLeft="2dp"
+                    tools:layout_editor_absoluteX="176dp"
+                    tools:layout_editor_absoluteY="210dp" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="1dp"
+            android:layout_alignParentRight="true">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#dedede">
+                <ImageView
+                    android:id="@+id/itemImage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    tools:layout_editor_absoluteX="-11dp"
+                    tools:layout_editor_absoluteY="-9dp"
+                    tools:srcCompat="@drawable/photo1653233501" />
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/itemCos2t"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Cost"
+                    android:textColor="@color/black"
+
+                    tools:layout_editor_absoluteX="189dp"
+                    tools:layout_editor_absoluteY="141dp" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/itemDescribe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Describe:"
+                    android:textSize="13sp"
+                    android:paddingLeft="2dp"
+                    tools:layout_editor_absoluteX="176dp"
+                    tools:layout_editor_absoluteY="210dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
